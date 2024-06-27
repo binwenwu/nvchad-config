@@ -1,7 +1,14 @@
-## My custom Nvchad v2.5 configuration
-
+# My custom Nvchad v2.5 configuration
 
 ![](https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/ascascasca-min.png)
+
+### Installation
+
+- For linux/macos:
+
+```bash
+git clone git@github.com:binwenwu/nvchad-config.git ~/.config/nvim --depth 1 && nvim
+```
 
 ### Features:
 
@@ -15,13 +22,7 @@
 - [Markdown Preview](https://github.com/iamcco/markdown-preview.nvim) with live changes in browser
 - Round borders as a priority over sharp borders
 
-### Bugs:
-
-- 🐞
-
 ### Dependencies:
-
-Required:
 
 - NVIM Stable v0.10.0+ (Nightlies might work)
 - NvChad v2.5
