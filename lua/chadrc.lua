@@ -7,7 +7,9 @@ local M = {}
 M.ui = {
 	theme = "catppuccin",
  
-  telescope = { style = "bordered" }, -- borderless / bordered
+  -- 文本/文件搜索框样式设置
+  hl_overridetelescope = { style = "bordered" }, -- borderless / bordered
+
 
 
 
