@@ -1,5 +1,5 @@
 return {
-  
+
   -- 代码格式化
   {
     "stevearc/conform.nvim",
@@ -17,6 +17,17 @@ return {
       vim.fn["mkdp#util#install"]()
     end,
     lazy = true,
+  },
+  -- nvim 启动界面
+  {
+    "nvimdev/dashboard-nvim",
+    event = "VimEnter",
+    config = function()
+      require("dashboard").setup {
+        -- config
+      }
+    end,
+    dependencies = { { "nvim-tree/nvim-web-devicons" } },
   },
 
   -- These are some examples, uncomment them if you want to see them work!

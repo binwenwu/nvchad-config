@@ -5,7 +5,7 @@
 local M = {}
 
 M.ui = {
-	theme = "catppuccin",
+	theme = "tokyonight",
  
   -- 文本/文件搜索框样式设置
   hl_overridetelescope = { style = "bordered" }, -- borderless / bordered
