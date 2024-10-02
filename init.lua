@@ -38,4 +38,7 @@ vim.schedule(function()
   require "mappings"
 end)
 
+-- Load Python LSP configuration
+local python_config = require("nvchad.configs.python")
+python_config.setup()
 

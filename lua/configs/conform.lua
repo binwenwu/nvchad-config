@@ -1,4 +1,5 @@
 local options = {
+  -- 格式化插件设置
   formatters_by_ft = {
     lua = { "stylua" },
     css = { "prettier" },
@@ -13,7 +14,8 @@ local options = {
     scss = { "prettier" },
     yaml = { "prettier" },
     python = { "autopep8" },
-    c = { "clang-format" }
+    c = { "clang-format" },
+    java = { "clang-format"}
   },
 
   -- format_on_save = {
